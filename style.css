@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(62, 62, 168);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    font-size: xx-large;
+}
+
+.container {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+.square {
+    width: calc(100% / 10 - 0.5rem);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.fizz {
+    background-color: yellow;
+}
+
+.buzz {
+    background-color: green;
+}
+
+.fizzbuzz {
+    background-color: red;
+}
